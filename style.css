@@ -150,7 +150,7 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -164,6 +164,7 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+    position: relative;
   }
   /* Handle the widths */
   .masthead,
