@@ -9,7 +9,7 @@
 
 
         <link rel="stylesheet" href="style.css">
-        <script src="js/main.js"></script>
+        <script src="main.js"></script>
         <link rel="author" href="Lyn Muldrow">
 
         <!--Bootstrap begin-->
@@ -20,29 +20,29 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <!--Bootstrap end-->
     </head>
-
-    <body>
-
-	     <div class="site-wrapper">
+<body>
+ <div class="site-wrapper">
 
 	      <div class="site-wrapper-inner">
 
 	        <div class="inner cover">
 	           	
- 				<img src= "title.png">
+ 				<img src= "images/title.png">
 	            <h1 class="cover-heading">I've been getting fortunes since before they were cool.</h1>
 	            <p class="lead">So, I guess you could just click this button or something and get a fortune. Whatever.</p>
 
-	            <img id="title" src= "cookie.png">
+	            <img id="title" src= "images/cookie.png">
+
+	            <br/><br/>
+				<!--this relates to the js that serves the text-->
+	            <h2><div id="fortuneText" class="fortunetext"></div></h2>
 
 	            <br/><br/>
 
-	            <div id="fortuneText"></div>
-
-	            <br/><br/>
-	             
+	             <!--this button reads the submitbutton variable in js-->
 	            <button id="submit" class="btn btn-lg btn-default">Fortunes, yo</button>
 	       
+	       		<br/><br/><br/><br/><br/>
 
 	          <div class="mastfoot">
 	            <div class="inner">
@@ -58,8 +58,10 @@
 
 
 
+
     <!-- Main Scripts -->
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+    <!--I want to refactor with jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </body>
 

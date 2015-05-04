@@ -33,7 +33,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background: url("bg.jpg");
+  background: url("images/bg.jpg");
   background-size: cover;
   overflow: hidden;
 }
@@ -71,6 +71,14 @@ body {
   background-size: cover;
   overflow: hidden;
 }
+
+.fortunetext {
+  color: white;
+  font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery', 'URW Chancery L', cursive;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
 
 
 /*

@@ -34,14 +34,17 @@ window.onload = function() {
 	];
 
    function nextFortune() {
-        while (newFortuneIndex == oldFortuneIndex) {
-            newFortuneIndex = Math.floor(Math.random() * fortunearray.length);
-        }
+        
+        newFortuneIndex = Math.floor(Math.random() * fortunearray.length);
+        //iterates through the array
 
-        fortuneSpan.innerHTML  = fortunearray[newFortuneIndex].text; //make HTML's fortuneText random quote
+        fortuneSpan.innerHTML  = fortunearray[newFortuneIndex].text; 
+        //makes HTML's fortuneText random fortune
 
- 		oldQuoteIndex = newQuoteIndex;
+ 		oldFortuneIndex = newFortuneIndex;
+ 		//picks a new index number from the fortune list
     }
 
-	submitButton.onclick = nextFortune;
-}
+	submitButton.onclick= nextFortune;
+	//when you click the button, a new fortune pops up 
+};
