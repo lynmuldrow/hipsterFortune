@@ -33,14 +33,11 @@ body {
   color: #000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background: url("images/bg.jpg") no-repeat;
+  background: url("images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden;
 }
 
 
@@ -178,6 +175,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 100%;
   }
 }
