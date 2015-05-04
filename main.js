@@ -48,3 +48,5 @@ window.onload = function() {
 	submitButton.onclick= nextFortune;
 	//when you click the button, a new fortune pops up 
 };
+
+$.backstretch("images/bg2.jpg");
